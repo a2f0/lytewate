@@ -54,5 +54,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #user defined
+gem 'coveralls', require: false
 gem 'pg'
 gem 'simplecov', :require => false, :group => :test
