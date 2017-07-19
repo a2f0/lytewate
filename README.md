@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/deepeeess/lytewate/badge.svg?branch=master)](https://coveralls.io/github/deepeeess/lytewate?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/deepeeess/lytewate/badge.svg?branch=master)](https://coveralls.io/github/deepeeess/lytewate?branch=master) [![Build Status](https://travis-ci.org/deepeeess/lytewate.svg?branch=master)](https://travis-ci.org/deepeeess/lytewate)
 
 # README
 
