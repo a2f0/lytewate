@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/deepeeess/lytewate/badge.svg?branch=master)](https://coveralls.io/github/deepeeess/lytewate?branch=master)
+
 # README
 
 This README would normally document whatever steps are necessary to get the
