@@ -22,4 +22,15 @@ ActiveRecord::Schema.define(version: 20170718191815) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "user_tag_snippet", force: :cascade do |t|
+    t.integer "user_tag_id"
+    t.integer "snippet_id"
+  end
+
+  create_table "user_tags", force: :cascade do |t|
+    t.string "label"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
 end

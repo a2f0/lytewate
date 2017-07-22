@@ -1,0 +1,10 @@
+<% UserTag.all.each do |tag| %>
+<h1><%= tag.label %></h1>
+
+<% tag.snippets.each do |snippet| %>
+
+<div><%= snippet.description %></div>
+
+<% end %>
+
+<% end %>
