@@ -55,6 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #user defined
 gem 'coveralls', require: false
+gem 'foundation-rails'
 gem 'nokogiri' #for dokuwiki etl
 gem 'pg'
 gem 'simplecov', :require => false, :group => :test
