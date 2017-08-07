@@ -1,26 +1,20 @@
 [![Coverage Status](https://coveralls.io/repos/github/deepeeess/lytewate/badge.svg?branch=master)](https://coveralls.io/github/deepeeess/lytewate?branch=master) [![Build Status](https://travis-ci.org/deepeeess/lytewate.svg?branch=master)](https://travis-ci.org/deepeeess/lytewate)
 
-# README
+# Overview
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rapid text and retrieval
 
-Things you may want to cover:
+# Heroku
 
-* Ruby version
+Deploy the code
 
-* System dependencies
+    git push heroku master
 
-* Configuration
+View the application logs
 
-* Database creation
+    heroku logs
 
-* Database initialization
+Run db:migrate
 
-* How to run the test suite
+    heroku run rake db:migrat
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
