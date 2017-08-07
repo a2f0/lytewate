@@ -1,7 +1,6 @@
 namespace :lytewate do
   desc "re-seed from dokuwiki"
   task seed: :environment do
-    puts "re-seeding"
     doc = Nokogiri::HTML(open(ENV['dokuwiki_url']))
     doc.search('//h2').each do |node|
       ut = UserTag.find_or_create_by(label: node.text.strip)

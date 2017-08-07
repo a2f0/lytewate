@@ -14,7 +14,13 @@ View the application logs
 
     heroku logs
 
-Run db:migrate
+Rails specific
 
-    heroku run rake db:migrat
+    heroku run rake db:migrate
+    heroku run rake db:seed
+    heroku run rake lytewate:seed
+
+Show environment variables
+
+    heroku config
 
